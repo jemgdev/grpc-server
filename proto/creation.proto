@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package creationPackage;
+
+service Creation {
+  rpc CreateItem (stream CreationRequest) returns (stream CreationResponse);
+}
+
+message CreationRequest {
+  string userId = 1;
+}
+
+message CreationResponse {
+  string message = 1;
+  string userId = 2;
+  bool status = 3;
+}
