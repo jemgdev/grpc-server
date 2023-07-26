@@ -8,6 +8,7 @@ service Creation {
 
 message CreationRequest {
   string userId = 1;
+  string message = 2;
 }
 
 message CreationResponse {
