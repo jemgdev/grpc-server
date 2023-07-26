@@ -1,0 +1,1 @@
+![Architecture](wiki/architecture.png?raw=true "Architecture")
